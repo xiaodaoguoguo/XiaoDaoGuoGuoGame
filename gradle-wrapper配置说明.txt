@@ -1,0 +1,14 @@
+注意：gradle/wrapper/ 文件夹需要从GitHub构建时自动生成，或者手动创建以下文件：
+
+创建文件：gradle/wrapper/gradle-wrapper.properties
+内容：
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.0-bin.zip
+networkTimeout=10000
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+
+另外需要 gradle-wrapper.jar 文件（由Gradle自动生成）
+
+如果本地构建出错，上传到GitHub后GitHub Actions会自动处理这些文件。

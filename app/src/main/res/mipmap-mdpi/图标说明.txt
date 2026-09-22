@@ -1,0 +1,15 @@
+🎨 图标文件放置说明
+
+请将你的 48x48 PNG 图标文件放在此文件夹中，命名为：
+- ic_launcher.png
+- ic_launcher_round.png
+- ic_launcher_foreground.png
+
+如果你还没有图标，可以：
+1. 访问 https://icon.kitchen/ 在线生成
+2. 上传你的高清图标
+3. 下载生成的zip文件
+4. 解压后将所有 mipmap-* 文件夹内容复制到
+   D:\project\XiaoDaoGuoGuoGame\app\src\main\res\
+
+详细指南请查看项目根目录的 ICON_GUIDE.md 文件。
