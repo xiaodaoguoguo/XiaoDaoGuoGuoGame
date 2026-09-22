@@ -107,7 +107,6 @@ public class MainActivity extends AppCompatActivity {
 
         // 缓存策略
         webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
-        webSettings.setAppCacheEnabled(true);
 
         // 设置WebViewClient
         webView.setWebViewClient(new GameWebViewClient());
