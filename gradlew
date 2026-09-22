@@ -82,10 +82,10 @@ save () {
 APP_ARGS=$(save "$@")
 
 # Collect all arguments for the java command; same as above in batch script.
-set -- \\
-        "-Dorg.gradle.appname=$APP_BASE_NAME" \\
-        -classpath "$CLASSPATH" \\
-        org.gradle.wrapper.GradleWrapperMain \\
+set -- \
+        "-Dorg.gradle.appname=$APP_BASE_NAME" \
+        -classpath "$CLASSPATH" \
+        org.gradle.wrapper.GradleWrapperMain \
         "$APP_ARGS"
 
 exec "$JAVACMD" "$@"
