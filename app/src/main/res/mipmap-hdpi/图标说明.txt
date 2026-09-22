@@ -1,2 +1,0 @@
-请将你的 72x72 PNG 图标放在这里
-文件名：ic_launcher.png, ic_launcher_round.png, ic_launcher_foreground.png
